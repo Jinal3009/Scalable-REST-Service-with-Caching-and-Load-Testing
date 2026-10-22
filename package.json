@@ -1,0 +1,16 @@
+{
+  "name": "scalable-store-api",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": { "start": "node src/server.js", "seed": "node src/seed.js" },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0",
+    "ioredis": "^5.4.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.0",
+    "rate-limit-redis": "^4.2.0"
+  }
+}
